@@ -1,0 +1,51 @@
+
+<!---
+author: Daniel Gustavo Yava
+data:14/04/2020
+description: conversor de moeda dollar para kwanza vice-versa
+
+30 dias e 30 projetos
+Dia - 5
+GitHub - >http://github.com/danguya
+facebook: Wilmy Danguya ODaniel(LINK ->https://www.facebook.com/Daniel.gustavo.yava16)
+Youtube: Kamba do Código (LINK -> https://www.youtube.com/channel/UC5jYw-pt7kWZkKPLV0Obt8w?view_as=subscriber)
+page: Kamba do Código (LINK -> https://www.facebook.com/Kamba-Do-C%C3%B3digo-105259107740283/)
+-->
+<!DOCTYPE html>
+<html lang="pt-ao">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" description="Daniel Gustavo Yava">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conversor de moeda</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Conversor de moeda by Daniel Gustavo Yava</h1>
+        </header>
+        <main>
+            <div id="area_conversor">
+                
+                <input type="number" name="valor" id="valor">
+                
+                <select id="convertFor" name="convertFor">
+                    <option value="">MOEDA</option>
+                    <option value="USD">Dollares</option>
+                    <option value="AOA">Kwanzas</option>
+                  </select>
+                  <input type="button" value="Converter" id="Converter">
+                <br>
+                <span id="from">3,000,000 Kwanzas</span>
+                <div id="resultado">
+                    <h1 id="display">
+                        2,000,000 $
+                    </h1>
+                    <h1 id="code">USD</h1>
+                </div>
+                <input type="reset" id="reset" value="limpar">
+            </div>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
